@@ -6,6 +6,29 @@ export default function Form() {
 					<input type="hidden" name="form-name" value="contact" />
 				</p>
 				<p class="my-5">
+					<label class="lock text-gray-800 ml-2 font-bold md:text-right mb-1 md:mb-0 pr-4">Categoria negozio</label>
+					<select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" required name="category">
+						<option>Seleziona una categoria</option>
+						<option>👩‍⚕️Salute</option>
+						<option>🍦gelaterie</option>
+						<option>🥩macellerie</option>
+						<option>🍞Panifici</option>
+						<option>🥬generi alimentari</option>
+						<option>🍽️Ristorazione</option>
+						<option>🎣Pesce fresco</option>
+						<option>🍣sushi</option>
+						<option>🍝pasta fresca e primi piatti</option>
+						<option>🍾Enoteca e Birre</option>
+						<option>🍎Frutta fresca</option>
+						<option>🛒Supermercati</option>
+						<option>🍩Pasticceria</option>
+						<option>🍕Pizzerie</option>
+						<option>👔Lavanderie</option>
+						<option>👨‍💻Informatica</option>
+						<option>🐶Prodotti per animali</option>
+					</select>
+				</p>
+				<p class="my-5">
 					<label class="lock text-gray-800 ml-2 font-bold md:text-right mb-1 md:mb-0 pr-4">Nome
 						<input class="bg-white focus:outline-none focus:shadow-outline border border-gray-500 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" required type="text" name="name" />
 					</label>
@@ -24,10 +47,6 @@ export default function Form() {
 					<label class="lock text-gray-800 ml-2 font-bold md:text-right mb-1 md:mb-0 pr-4">Sito Web
 						<input class="bg-white focus:outline-none focus:shadow-outline border border-gray-500 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" type="text" name="site" />
 					</label>
-				</p>
-				<p class="my-5">
-					<label class="lock text-gray-800 ml-2 font-bold md:text-right mb-1 md:mb-0 pr-4">Consegna in tutta la provincia</label>
-					<input type="checkbox" name="province-delivery" />
 				</p>
 				<p class="my-5">
 					<label class="lock text-gray-800 ml-2 font-bold md:text-right mb-1 md:mb-0 pr-4">Note
